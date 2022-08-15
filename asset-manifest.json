@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dazzilie-WebApp/static/css/main.8b4d5ef4.css",
+    "main.js": "/Dazzilie-WebApp/static/js/main.784d40e7.js",
+    "static/media/Mulish-Regular.ttf": "/Dazzilie-WebApp/static/media/Mulish-Regular.06ce9c37c31ae94797a2.ttf",
+    "static/media/customer.svg": "/Dazzilie-WebApp/static/media/customer.344c6bed92a782e92aa7ac107bcb84dd.svg",
+    "static/media/dazzie.svg": "/Dazzilie-WebApp/static/media/dazzie.4e5afeb66971f6404a5a70be3331dfcf.svg",
+    "static/media/settings.svg": "/Dazzilie-WebApp/static/media/settings.f828c244a567d7e0d0fab19db1818889.svg",
+    "static/media/discount.svg": "/Dazzilie-WebApp/static/media/discount.bb38323c203b05e881680a211d167f7f.svg",
+    "static/media/NotificationBell.svg": "/Dazzilie-WebApp/static/media/NotificationBell.9eda4057e7f311dbf9de6ca9d28e4faa.svg",
+    "static/media/user.svg": "/Dazzilie-WebApp/static/media/user.802a00142babee8a787b077d0c52e808.svg",
+    "index.html": "/Dazzilie-WebApp/index.html",
+    "static/media/search.svg": "/Dazzilie-WebApp/static/media/search.549e671f643962e52225dd3f26fe9fa0.svg",
+    "static/media/Menu.svg": "/Dazzilie-WebApp/static/media/Menu.d0737a73c64383c3735d37af0d30d854.svg",
+    "static/media/Package.svg": "/Dazzilie-WebApp/static/media/Package.bfeb1acd6acf0f82bea77834aa64f2fc.svg",
+    "static/media/orders.svg": "/Dazzilie-WebApp/static/media/orders.fc962b648e56109f28cc5d20795089bf.svg",
+    "static/media/logo.svg": "/Dazzilie-WebApp/static/media/logo.62dab4a7b5bf2fb77b89c3458405b0b6.svg",
+    "main.8b4d5ef4.css.map": "/Dazzilie-WebApp/static/css/main.8b4d5ef4.css.map",
+    "main.784d40e7.js.map": "/Dazzilie-WebApp/static/js/main.784d40e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b4d5ef4.css",
+    "static/js/main.784d40e7.js"
+  ]
+}

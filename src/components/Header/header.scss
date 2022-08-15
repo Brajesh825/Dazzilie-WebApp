@@ -5,7 +5,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid $text-color-tertiary;
     
     &__left{
         display: flex;
@@ -39,14 +38,6 @@
         .user {
             box-sizing: border-box;
             height: 2.5rem ;
-
-            h3{
-                font-size: $font-size-s-m ; // 19px
-            }
-            p{
-                font-size: $font-size-v-s; // 14px
-                color: $text-color-tertiary;
-            }
         }
     }
 

@@ -1,9 +1,9 @@
+@import "./base.scss";
+
 @font-face {
   font-family: 'Mulish';
   src: url('./fonts/Mulish-Regular.ttf');
 }
-
-
 
 body{
   margin: 0;
@@ -20,4 +20,12 @@ body{
 }
 a{
   text-decoration: none;
+}
+
+h3{
+  font-size: $font-size-s-m ; // 19px
+}
+p{
+  font-size: $font-size-v-s; // 14px
+  color: $text-color-tertiary;
 }

@@ -19,11 +19,11 @@
       padding: 0.5rem;
 
       &:hover {
-         border-bottom: 2px solid blue;
+         border-bottom: 2px solid $border-color-secondary;
       }
 
       &.active {
-         border-bottom: 2px solid blue;
+         border-bottom: 2px solid $border-color-secondary;
       }
    }
 }

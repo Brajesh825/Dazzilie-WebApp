@@ -7,7 +7,7 @@ const FoodMenu = ({ items , type }) => {
       <h2 className="menuName" >{type}</h2>
       <div className="menuItems">
         {items.map((menuItem) => {
-          const { id, name, image, price } = menuItem;
+          const {  name, image, price } = menuItem;
           return (
             <article key={Math.random()} className="menuItem">
               <div className="imageContainer">

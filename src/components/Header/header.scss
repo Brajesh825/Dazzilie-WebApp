@@ -1,0 +1,53 @@
+@import "../../index.scss";
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $text-color-tertiary;
+    
+    &__left{
+        display: flex;
+        flex-direction: row;
+        padding-left: 2rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        img:first-child{
+            padding-right: 0.5rem !important ;
+        }
+    }
+    &__right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-right: 2rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+
+        svg:first-child{
+            padding-right: 1.9rem !important ;
+        }
+        svg:nth-child(2){
+            padding-right: 1rem !important ;
+            width: 40px;
+            height: 40px;
+        }
+
+        .user {
+            box-sizing: border-box;
+            height: 2.5rem ;
+
+            h3{
+                font-size: $font-size-s-m ; // 19px
+            }
+            p{
+                font-size: $font-size-v-s; // 14px
+                color: $text-color-tertiary;
+            }
+        }
+    }
+
+}

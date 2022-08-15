@@ -1,0 +1,24 @@
+@import "../../index.scss";
+
+.searchBar {
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: $bg-color-tertiary;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+  
+    svg {
+      padding-right: 0.75rem;
+    }
+  
+    input {
+        min-width: 120px;
+      width: 298px;
+      height: 18px;
+      border: none;
+      background-color: $bg-color-tertiary;
+    }
+  }
+  

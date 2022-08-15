@@ -1,0 +1,29 @@
+@import '../../base.scss';
+
+.categoriesBar {
+   padding: 2rem 0 1rem 0;
+   font-size: 1rem;
+
+   display: flex;
+   overflow-x: scroll;
+
+   &::-webkit-scrollbar {
+      width: 0px;
+   }
+   scrollbar-width: none;
+
+   span {
+      width: 20%;
+      white-space: nowrap;
+      text-align: center;
+      padding: 0.5rem;
+
+      &:hover {
+         border-bottom: 2px solid blue;
+      }
+
+      &.active {
+         border-bottom: 2px solid blue;
+      }
+   }
+}

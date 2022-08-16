@@ -5,6 +5,10 @@ import Logo from "../../icons/logo.svg";
 
 import profitLossDetails from "../../Api/profitLossDetails";
 
+import itemSold from "../../Api/itemSold";
+
+import SoldItemList from "../../components/SoldItemList/SoldItemList";
+
 const Analytics = () => {
   return (
     <div className="container">
@@ -81,8 +85,8 @@ const Analytics = () => {
             <div className="items__sold__header">
               <h2>Items Sold</h2>
               <div className="categories">
-                <select id="dropdown" className="bestSeller">
-                  <option selected value="0">
+                <select defaultValue={0}  id="dropdown" className="bestSeller">
+                  <option  value="0">
                     Best Seller
                   </option>
                   <option value="1">1</option>
@@ -92,104 +96,7 @@ const Analytics = () => {
                 </select>
               </div>
             </div>
-            <div className="items__sold__list">
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-              <div className="sold__item">
-                <div>
-                <img
-                  src= {Logo}
-                  alt="img"
-                ></img>
-                </div>
-                <span className="details">
-                  <h4>title</h4>
-                  <p>numbers</p>
-                </span>
-              </div>
-            </div>
+            <SoldItemList items={itemSold } /> 
           </section>
         </section>
       </div>

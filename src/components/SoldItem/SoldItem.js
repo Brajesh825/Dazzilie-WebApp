@@ -1,11 +1,12 @@
 import React from 'react'
 
 import Logo from "../../icons/logo.svg";
+import "./soldItem.scss"
 
 const SoldItem = ({item}) => {
     console.log(item);
   return (
-    <div className="sold__item">
+    <div className="soldItem">
     <div>
       <img src={Logo} alt="img"></img>
     </div>

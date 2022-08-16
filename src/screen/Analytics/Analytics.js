@@ -4,10 +4,12 @@ import "./analytic.scss";
 import Logo from "../../icons/logo.svg";
 
 import profitLossDetails from "../../Api/profitLossDetails";
-
 import itemSold from "../../Api/itemSold";
+import order from "../../Api/orders"
 
 import SoldItemList from "../../components/SoldItemList/SoldItemList";
+import SoldItemHeader from "../../components/SoldItemHeader/SoldItemHeader";
+import OrderTable from "../../components/Order/OrderTable/OrderTable";
 
 const Analytics = () => {
   return (
@@ -36,67 +38,11 @@ const Analytics = () => {
         <section className="orders">
           <section className="latest__orders">
             <h2>Latest Orders</h2>
-            <table>
-              <tr>
-                <th>No.</th>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Revenue</th>
-                <th>Net Profit</th>
-              </tr>
-              <tr>
-                <td>01</td>
-                <td>Unagi Grilled Eel</td>
-                <td>30</td>
-                <td>$293.01</td>
-                <td>$710.68</td>
-              </tr>
-              <tr>
-                <td>01</td>
-                <td>Soba - Buckwheat Noodles</td>
-                <td>30</td>
-                <td>$293.01</td>
-                <td>$710.68</td>
-              </tr>
-              <tr>
-                <td>01</td>
-                <td>Onigiri - Rice Balls</td>
-                <td>30</td>
-                <td>$293.01</td>
-                <td>$710.68</td>
-              </tr>
-              <tr>
-                <td>01</td>
-                <td>Onigiri - Rice Balls</td>
-                <td>30</td>
-                <td>$293.01</td>
-                <td>$710.68</td>
-              </tr>
-              <tr>
-                <td>01</td>
-                <td>Onigiri - Rice Balls</td>
-                <td>30</td>
-                <td>$293.01</td>
-                <td>$710.68</td>
-              </tr>
-            </table>
+            <OrderTable items={order} />
           </section>
-          <section className="items__sold">
-            <div className="items__sold__header">
-              <h2>Items Sold</h2>
-              <div className="categories">
-                <select defaultValue={0}  id="dropdown" className="bestSeller">
-                  <option  value="0">
-                    Best Seller
-                  </option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                </select>
-              </div>
-            </div>
-            <SoldItemList items={itemSold } /> 
+          <section className="soldItems">
+            <SoldItemHeader />
+            <SoldItemList items={itemSold} />
           </section>
         </section>
       </div>

@@ -1,11 +1,11 @@
 import React from "react";
 
 import SoldItem from "../SoldItem/SoldItem";
+import "./soldItemList.scss"
 
 const SoldItemList = ({items}) => {
-    console.log(items);
   return (
-    <div className="items__sold__list">
+    <div className="soldItemList">
       {items.map((item) => {
         return <SoldItem key={Math.random()} item={item} />;
       })}

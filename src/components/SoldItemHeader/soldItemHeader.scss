@@ -1,0 +1,22 @@
+@import "../../base.scss";
+
+.soldItemHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .categories{
+      padding: 0.5rem;
+      border: 1px solid $border-color-secondary;
+      border-radius: 0.5rem;
+      max-width: 9rem;
+      text-align: center;
+
+      select{
+        font-size: 16px;
+        color: blue;
+        border: none;
+        background-color: white;
+      }
+    }
+  }

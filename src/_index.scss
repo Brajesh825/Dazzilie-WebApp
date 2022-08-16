@@ -25,7 +25,18 @@ a{
 h3{
   font-size: $font-size-s-m ; // 19px
 }
+
+h4{
+  font-size: $font-size-s ; // 16px
+}
+
 p{
   font-size: $font-size-v-s; // 14px
   color: $text-color-tertiary;
+}
+.container{
+  margin-left: 7rem;
+  height: calc(100vh - 10rem);
+  padding: 40px 32px;
+  background-color: $bg-color-tertiary;
 }

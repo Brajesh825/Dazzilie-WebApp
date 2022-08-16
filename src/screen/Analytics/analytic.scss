@@ -1,13 +1,11 @@
 @import "../../base";
 
 .analytics {
+  margin-top: 5rem;
   background-color: $color-white;
   border-radius: 0.5rem;
   padding: 1.5rem;
   background-color: $bg-color-tertiary;
-
-
-
 
   .orders {
     display: flex;
@@ -27,7 +25,6 @@
       margin-right: 2rem;
       border-radius: 1rem;
       background-color: white;
-  
     }
     .soldItems {
       flex: 1;

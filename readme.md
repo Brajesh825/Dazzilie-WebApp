@@ -1,2 +1,5 @@
+# DashBoard
 ![plot](./dev/Dashboard.png)
-![plot](./dev/Analytics.png)
+
+# Analysis
+![plot](./dev/analytic.png)

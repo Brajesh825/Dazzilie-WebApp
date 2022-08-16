@@ -9,11 +9,9 @@ import "./sharedLayout.scss";
 const SharedLayout = () => {
   return (
     <>
-      <Header />
-      <SideBar />
-      <div className="container">
-        <Dashboard />
-      </div>
+      {/* <Header />
+      <SideBar /> */}
+      <Dashboard/>
     </>
   );
 };

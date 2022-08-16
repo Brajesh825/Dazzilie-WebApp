@@ -1,5 +1,12 @@
 @import "../../base.scss";
 
+.container{
+  margin-left: 7rem;
+  height: calc(100vh - 10rem);
+  padding: 40px 32px;
+  background-color: $bg-color-tertiary;
+}
+
 .dashboard {
   background-color: $color-white;
   border-radius: 0.5rem;

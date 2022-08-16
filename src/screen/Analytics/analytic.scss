@@ -6,33 +6,8 @@
   padding: 1.5rem;
   background-color: $bg-color-tertiary;
 
-  &__items {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    margin: 0.5rem 0;
-  }
 
-  &__item {
-    background-color: $color-white;
-    max-width: 292px;
-    max-height: 102px;
-    padding: 24px 16px;
-    border-radius: 0.5rem;
 
-    .item__value,
-    .item__data {
-      display: flex;
-      justify-content: space-between;
-      margin: 0.5rem 0;
-    }
-    .item__value {
-      p {
-        font-weight: 1000;
-        font-size: 1rem;
-      }
-    }
-  }
 
   .orders {
     display: flex;
@@ -52,21 +27,7 @@
       margin-right: 2rem;
       border-radius: 1rem;
       background-color: white;
-      table {
-        width: 100%;
-        background-color: white;
-        th {
-          background-color: $bg-color-tertiary;
-        }
-        th,
-        td {
-          padding: 15px;
-          text-align: left;
-        }
-        tr {
-          border-bottom: 1px solid rgb(49, 49, 105);
-        }
-      }
+  
     }
     .soldItems {
       flex: 1;

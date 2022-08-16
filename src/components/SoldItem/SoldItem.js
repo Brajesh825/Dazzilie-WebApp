@@ -4,7 +4,6 @@ import Logo from "../../icons/logo.svg";
 import "./soldItem.scss"
 
 const SoldItem = ({item}) => {
-    console.log(item);
   return (
     <div className="soldItem">
     <div>

@@ -1,0 +1,22 @@
+@import "../../../base";
+
+.analyticItem {
+    background-color: $color-white;
+    max-width: 292px;
+    max-height: 102px;
+    padding: 24px 16px;
+    border-radius: 0.5rem;
+
+    .itemValue,
+    .itemData {
+      display: flex;
+      justify-content: space-between;
+      margin: 0.5rem 0;
+    }
+    .itemValue {
+      p {
+        font-weight: 1000;
+        font-size: 1rem;
+      }
+    }
+  }

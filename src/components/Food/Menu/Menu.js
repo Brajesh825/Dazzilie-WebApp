@@ -9,7 +9,7 @@ const FoodMenu = ({ items , type }) => {
         {items.map((menuItem) => {
           const {  name, image, price } = menuItem;
           return (
-            <Item name={name} image={image} price={price} />
+            <Item key={Math.random()} name={name} image={image} price={price} />
           );
         })}
       </div>

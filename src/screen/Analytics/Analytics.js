@@ -6,8 +6,8 @@ import profitLossDetails from "../../Api/profitLossDetails";
 import itemSold from "../../Api/itemSold";
 import order from "../../Api/orders";
 
-import SoldItemList from "../../components/SoldItemList/SoldItemList";
-import SoldItemHeader from "../../components/SoldItemHeader/SoldItemHeader";
+import SoldItemList from "../../components/Sold/SoldItemList/SoldItemList";
+import SoldItemHeader from "../../components/Sold/SoldItemHeader/SoldItemHeader";
 import OrderTable from "../../components/Order/OrderTable/OrderTable";
 import AnalyticList from "../../components/Analytic/AnalyticList/AnalyticList";
 
@@ -17,7 +17,7 @@ const Analytics = () => {
       <div className="analytics">
         <AnalyticList items={profitLossDetails} />
         <section className="orders">
-          <section className="latest__orders">
+          <section className="latestOrders">
             <h2>Latest Orders</h2>
             <OrderTable items={order} />
           </section>

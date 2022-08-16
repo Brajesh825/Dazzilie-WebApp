@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Logo from "../../icons/logo.svg";
+import Logo from "../../../icons/logo.svg";
 import "./soldItem.scss"
 
 const SoldItem = ({item}) => {
   return (
     <div className="soldItem">
     <div>
-      <img src={Logo} alt="img"></img>
+      <img src={item.img} alt="img"></img>
     </div>
     <span className="details">
       <h4>{item.title}</h4>

@@ -1,18 +1,18 @@
 const drinks= [
     {
-      name: "Saoshimi",
+      name: "Amazake",
       price: "22$",
       image:
         "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg",
     },
     {
-      name: "Unagi - Grilled Eel",
+      name: "Royal Milk Tea",
       price: "22$",
       image:
         "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg",
     },
     {
-      name: "Onigiri - Rice Balls",
+      name: "Flavored Soymilk Drinks",
       price: "22$",
       image:
         "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg",

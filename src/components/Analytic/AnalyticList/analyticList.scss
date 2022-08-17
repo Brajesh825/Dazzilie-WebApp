@@ -5,4 +5,15 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     margin: 0.5rem 0;
+    @media screen and (min-width: $very-large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    @media screen and (max-width: $medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    @media screen and (max-width: $very-small) {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }

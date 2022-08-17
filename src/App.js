@@ -7,7 +7,7 @@ import Analytics from "./screen/Analytics/Analytics";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL} >
       <Header />
       <SideBar />
       <Routes>

@@ -7,4 +7,9 @@
   background-color: $color-white;
   border-radius: 0.5rem;
   padding: 1.5rem;
+
+  @media screen and (max-width: $small) {
+    padding: 1.5rem 1rem;
+  }
+
 }

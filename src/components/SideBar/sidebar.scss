@@ -1,6 +1,10 @@
 @import "../../base.scss";
 
 .sidebar {
+
+  @media screen and (max-width: $small) {
+    width: 5rem;
+  }
   position: fixed;
   top: 5rem;
   width: 7rem;

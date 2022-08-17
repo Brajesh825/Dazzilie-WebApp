@@ -1,42 +1,53 @@
 @import "./base.scss";
 
 @font-face {
-  font-family: 'Mulish';
-  src: url('./fonts/Mulish-Regular.ttf');
+  font-family: "Mulish";
+  src: url("./fonts/Mulish-Regular.ttf");
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Mulish';
+  font-family: "Mulish";
 }
-#root{
+#root {
   width: 100vw;
   height: 100vh;
 }
-a{
+a {
   text-decoration: none;
 }
 
-h3{
-  font-size: $font-size-s-m ; // 19px
+h3 {
+  font-size: $font-size-s-m; // 19px
+
+  @media screen and (max-width: $small) {
+    font-size: $font-size-s;
+  }
 }
 
-h4{
-  font-size: $font-size-s ; // 16px
+h4 {
+  font-size: $font-size-s; // 16px
+  @media screen and (max-width: $small) {
+    font-size: $font-size-v-s;
+  }
 }
 
-p{
+p {
   font-size: $font-size-v-s; // 14px
   color: $text-color-tertiary;
 }
-.container{
+.container {
   margin-left: 7rem;
   height: calc(100vh - 10rem);
   padding: 40px 32px;
+  height: auto;
   background-color: $bg-color-tertiary;
+  @media screen and (max-width: $small) {
+    margin-left: 5rem;
+  }
 }

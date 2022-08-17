@@ -20,3 +20,19 @@ $font-size-m-l : 2rem;
 $font-size-l : 2.25rem;
 $font-size-v-l : 3rem;
 $font-size-x-l : 4.5rem;
+
+$very-small: 400px;
+$small: 520px;
+$medium: 780px;
+$large: 980px;
+$very-large: 1440px;
+
+.smth {
+  //some CSS
+  @media screen and (max-width: $small) {
+    //do Smth
+  }
+  @media screen and (min-width: $medium) {
+    //do Smth
+  }
+}

@@ -51,3 +51,11 @@ p {
     margin-left: 5rem;
   }
 }
+h2{
+  @media screen and (max-width: $medium) {
+    font-size: 1.25rem;
+  }
+  @media screen and (max-width: $small) {
+    font-size: 1rem;
+  }
+}

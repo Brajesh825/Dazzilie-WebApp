@@ -7,10 +7,39 @@
   padding: 1.5rem;
   background-color: $bg-color-tertiary;
 
+  @media screen and (min-width: $very-large) {
+   
+  }
+
+  @media screen and (max-width: $medium) {
+   
+  }
+
+  @media screen and (max-width: $very-small) {
+   padding: 0px;
+  }
+
+
   .orders {
     display: flex;
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: 2rem;
+
+    @media screen and (min-width: $very-large) {
+     flex-direction: row;
+    }
+
+    @media screen and (max-width: $large) {
+      flex-direction: column;
+    }
+    
+    @media screen and (max-width: $medium) {
+      flex-direction: column;
+    }
+    @media screen and (max-width: $small) {
+      flex-direction: column;
+    }
+  
 
     section {
       padding: 0.75rem;
@@ -25,11 +54,21 @@
       margin-right: 2rem;
       border-radius: 1rem;
       background-color: white;
+      width: 100%;
+    
     }
     .soldItems {
       flex: 1;
       background-color: white;
       border-radius: 1rem;
+      width: 100%;
+
+      @media screen and (max-width: $large) {
+        margin-top: 2rem;
+      }
+      @media screen and (max-width: $small) {
+        
+      }
     }
   }
 }
